@@ -1,0 +1,144 @@
+ body{
+	margin:0px;
+ }
+ .outer
+ 	  {
+ 	  background-color:#eee;
+ 	  width:1200px;
+ 	  height:800px;
+	  margin:0 auto;
+	  
+  	 }
+
+
+  	 .header
+  	 {
+  	  	width:1200px;
+   	 	height:150px;
+  	  	background-color:blue;
+  	 }
+   	.hleft
+   	{
+  	width:100px;
+  	height:100px;
+   	background-color:blue;
+   	float:left;
+	margin: 25px 0 0 50px;
+	border-right:dotted;
+
+	}
+	.hright:hover
+	{
+		background-color:orange;
+		color:blue;
+		
+	}
+  
+    .hright
+  	 {
+    	width:300px;
+	 	height:100px;
+        background-color:white;
+    	float:right;
+		margin:25px 50px 0 0;
+		border-radius:20px;
+		text-align:center;
+		font-size:30px;
+		box-sizing: border-box;
+		padding:10px;
+   	}
+	.menubar
+	{
+		width: 1200px;
+		height: 50px;
+		background-color:#fff;
+		
+	}
+	.menus
+	{
+		width:150px;
+		height:40px;
+		background-color:chartreuse;
+		float: left;
+		border-radius:20px;
+		margin:5px 0px 0px 35px;
+		text-align:center;
+		line-height:50px;
+		
+	}
+	.menus:hover
+	{
+		background-color:blue;
+		color:white;
+		transition:2s;
+	
+	}
+
+	.slider
+	{
+		width: 1200px;
+		height: 300px;
+		background-color: #ddd;;
+	}
+	.main
+	{
+		width: 1200px;
+		height: 450px;
+		background-color: lightgray;
+
+	}
+	.mleft
+	{
+		width:100px;
+		height:20px;
+		float: left;	
+		border-radius:10px;
+		text-align:center;
+	
+		padding:10px 0 0 0;
+		box-sizing: border-box;
+
+	}
+	.mmenu {
+		margin-top:20px;
+		background-color:black;
+		color:white;
+		width:100px;
+		font-size:20px;
+		border-radius: 10px;
+	}
+	.mmenu:hover
+		{
+		background-color:black;
+		color:gold;
+		
+		}
+
+	.mright
+	{
+		width:950px;
+		min-height:300px;
+		background-color:;
+		float:right;
+		border-left:dotted;
+
+	}
+	.bottom
+	{
+		height:90px;
+		width:1200px;
+	}
+	.bleft
+	{
+		height:30px;
+		width:1200px;
+	}
+	.footer
+	{
+		width:1200px;
+		height:20px;
+		background-color:#009;
+		clear:both;
+		color: white;
+		text-align: center;
+	}
